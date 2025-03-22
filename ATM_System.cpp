@@ -9,7 +9,6 @@ using namespace std;
 const string ClientsFileName = "D:\\NewVS\\Course8_AboHadhood\\ATM System\\Clients.txt.txt";
 
 enum enATMMenueOptions { eQuickWithdraw = 1, eNormalWithdraw = 2, eDeposit = 3, eCheckBalance = 4, eLogout = 5 };
-
 enum enQuickWithdraw { eTwenty = 1, eFifty = 2, eHundred = 3, eTwoHundred = 4, eFourHundred = 5, eSixHundred = 6, eEightHundred = 7, eThousand = 8, eExit = 9 };
 
 void ShowATMMainMenue();
